@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>romantic-confession-balloon</module>
+        <module>romantic-confession-flower-rain</module>
     </modules>
 
     <parent>

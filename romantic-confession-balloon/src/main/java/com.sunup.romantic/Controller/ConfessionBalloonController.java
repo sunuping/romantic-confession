@@ -10,9 +10,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 @Slf4j
 public class ConfessionBalloonController {
+
     @GetMapping(value = {"/", "confessionBalloon"})
     public String confessionBalloon() {
         return "confessionBalloon";
+    }
+
+    @GetMapping(value = {"/like", "confessionBalloonNoPhoto"})
+    public String confessionBalloonNoPhoto() {
+        return "confessionBalloonNoPhoto";
     }
 
 }
